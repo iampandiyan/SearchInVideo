@@ -1,0 +1,17 @@
+name: videoSearch
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - opencv
+  - dlib
+  - pillow
+  - pip
+  - pip:
+    - face_recognition
+
+conda env create -f conda.yml
+
+conda activate videoSearch
+
