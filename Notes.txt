@@ -15,3 +15,6 @@ conda env create -f conda.yml
 
 conda activate videoSearch
 
+create exe file
+pyinstaller --onefile --windowed --add-data "C:\Users\Pandiyan\.insightface\models\buffalo_l;insightface\models\buffalo_l" --collect-all insightface video_search40.py
+
